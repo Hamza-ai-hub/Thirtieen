@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>~Thirteen-store | ₹500 Vintage Old-School Cartoon Polos & Tees</title>
+  <meta name="description" content="Welcome to ~Thirteen-store! 1930s Old School Cartoon vibes, modern 220 GSM Pique Cotton Polos & Tees. Flat ₹500 each across India with Cash on Delivery and Fast UPI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Special+Elite&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="cartoon-theme">
+
+  <!-- Retro Cartoon Announcement Marquee -->
+  <div class="announcement-bar">
+    <div class="announcement-content">
+      <span class="comic-sound">★ EXTRA! EXTRA! ★</span>
+      <span><strong>~THIRTEEN-STORE:</strong> FLAT <strong>₹500</strong> POLOS & TEES | CASH ON DELIVERY IN INDIA | FREE SHIPPING ON 2+ PIECES!</span>
+      <span class="announcement-pill">USE CODE: <strong>THIRTEEN50</strong></span>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <div class="header-left">
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+        
+        <a href="#" class="brand-logo">
+          <!-- Retro Cartoon Emblem -->
+          <div class="logo-mascot-icon">
+            <svg viewBox="0 0 100 100" class="mini-mascot-svg">
+              <!-- Head -->
+              <circle cx="50" cy="50" r="42" fill="#fff" stroke="#000" stroke-width="6"/>
+              <!-- Pie Eyes -->
+              <ellipse cx="37" cy="42" rx="7" ry="11" fill="#000"/>
+              <polygon points="37,42 43,36 43,48" fill="#fff"/>
+              <ellipse cx="63" cy="42" rx="7" ry="11" fill="#000"/>
+              <polygon points="63,42 57,36 57,48" fill="#fff"/>
+              <!-- Smile -->
+              <path d="M 28 58 Q 50 82 72 58" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+              <path d="M 24 55 Q 28 58 32 55" fill="none" stroke="#000" stroke-width="4"/>
+              <path d="M 76 55 Q 72 58 68 55" fill="none" stroke="#000" stroke-width="4"/>
+              <!-- Polo Collar -->
+              <polygon points="40,88 50,78 60,88 55,94 45,94" fill="#000"/>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">~Thirteen-store</span>
+            <span class="logo-sub">OLD-SCHOOL CARTOON INK • EST. 1930 VIBE</span>
+          </div>
+        </a>
+      </div>
+
+      <nav class="desktop-nav" id="desktopNav">
+        <a href="#products" class="nav-link active">Catalog</a>
+        <a href="#features" class="nav-link">Heavy Cotton</a>
+        <a href="#combos" class="nav-link">Combo Packs</a>
+        <a href="#reviews" class="nav-link">Buyer Reviews</a>
+        <a href="#pincode-section" class="nav-link">Check Pincode</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Pincode Pill Shortcut -->
+        <button class="pincode-quick-btn" id="pincodeQuickBtn" title="Check delivery to your pincode">
+          <span class="pincode-icon-pin">📍</span>
+          <span id="headerPincodeText">Deliver to India</span>
+        </button>
+
+        <!-- Cart Button -->
+        <button class="cart-trigger-btn" id="cartTriggerBtn" aria-label="View Shopping Cart">
+          <div class="cart-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            <span class="cart-badge" id="cartCountBadge">0</span>
+          </div>
+          <span class="cart-btn-label">BAG</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="drawer-title-box">
+        <span class="drawer-tilde">~</span>
+        <span class="drawer-title">Thirteen-store</span>
+      </div>
+      <button class="drawer-close-btn" id="mobileDrawerClose" aria-label="Close menu">&times;</button>
+    </div>
+    <div class="drawer-links">
+      <a href="#products" class="mobile-link">👕 The ₹500 Collection</a>
+      <a href="#features" class="mobile-link">✨ 220 GSM Fabric Specs</a>
+      <a href="#combos" class="mobile-link">🏷️ Combo Bundles (Save More)</a>
+      <a href="#reviews" class="mobile-link">⭐ Happy Buyers (4.9★)</a>
+      <a href="#pincode-section" class="mobile-link">📍 Check Delivery Pincode</a>
+      <a href="#faq" class="mobile-link">❓ Help & Questions</a>
+    </div>
+    <div class="drawer-footer">
+      <a href="https://wa.me/919876543210?text=Hi%20~Thirteen-store!%20I%20want%20to%20order%20Polos%20for%20%E2%82%B9500" target="_blank" class="whatsapp-btn-full">
+        💬 Order via WhatsApp
+      </a>
+      <p class="drawer-trust-text">~Thirteen-store • Pure Heavyweight Cotton</p>
+    </div>
+  </aside>
+
+  <!-- Hero Section: Old School Cartoon Style -->
+  <section class="hero-section">
+    <div class="comic-halftone-bg"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        
+        <!-- Retro Comic Banner Badge -->
+        <div class="hero-badge comic-badge-wobble">
+          <span class="badge-star">★</span>
+          <span>THE HONEST ₹500 POLO EXPERIMENT</span>
+          <span class="badge-star">★</span>
+        </div>
+
+        <h1 class="hero-title">
+          OLD-SCHOOL LOOK. <br>
+          <span class="ink-title-highlight">HEAVYWEIGHT POLOS.</span> <br>
+          <span class="hero-sub-loud">JUST ₹500, FOLKS!</span>
+        </h1>
+
+        <!-- Cartoon Speech Bubble -->
+        <div class="cartoon-speech-bubble">
+          <p>
+            "No 1,500 buck mall markup! Pure <strong>220 GSM Pique Cotton</strong> with anti-roll collars 
+            tailored right here in India. Wear 'em to work, wear 'em on the weekend!"
+          </p>
+          <div class="speech-tail"></div>
+        </div>
+
+        <div class="hero-price-callout">
+          <div class="price-bubble-comic">
+            <span class="rupee-sym">₹</span>
+            <span class="price-val">500</span>
+            <span class="price-unit">EACH</span>
+          </div>
+          <div class="price-comparison">
+            <div class="strike-mrp-box">₹999 MRP</div>
+            <div class="comic-pow-tag">50% OFF!</div>
+            <span class="stock-alert">⚡ High Demand — Limited Batches</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary btn-lg comic-btn">
+            GRAB YOUR POLO (₹500) ➔
+          </a>
+          <button class="btn btn-secondary btn-lg comic-btn" id="heroSizeChartBtn">
+            📏 SIZE GUIDE (S-XXL)
+          </button>
+        </div>
+
+        <!-- Cartoon Trust Grid -->
+        <div class="hero-trust-bar">
+          <div class="trust-item">
+            <div class="trust-stamp">💵</div>
+            <div class="trust-text">
+              <strong>Cash on Delivery</strong>
+              <span>Pay cash at your doorstep</span>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-stamp">🇮🇳</div>
+            <div class="trust-text">
+              <strong>Pan-India Shipping</strong>
+              <span>Delivers to 19,000+ pincodes</span>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-stamp">🔄</div>
+            <div class="trust-text">
+              <strong>7-Day Replacement</strong>
+              <span>Size issue? Quick doorstep exchange</span>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-stamp">⚡</div>
+            <div class="trust-text">
+              <strong>220 GSM Pique</strong>
+              <span>Heavyweight & bio-washed cotton</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Showcase with 1930s Mascot Accent -->
+      <div class="hero-visual">
+        <div class="hero-card-featured">
+          <div class="comic-frame-corner top-left"></div>
+          <div class="comic-frame-corner top-right"></div>
+          <div class="comic-frame-corner bottom-left"></div>
+          <div class="comic-frame-corner bottom-right"></div>
+
+          <div class="featured-tag">★ BESTSELLER ★</div>
+
+          <div class="hero-img-wrapper">
+            <img src="images/polo-burgundy.jpg" alt="Burgundy Polo T-Shirt" class="hero-main-img" id="heroFeaturedImg">
+          </div>
+
+          <div class="hero-card-overlay">
+            <div class="hero-card-meta">
+              <h3>Burgundy Royal Pique Polo</h3>
+              <p>220 GSM Pique • Anti-Curl Collar • Regular Fit</p>
+            </div>
+            <div class="hero-card-cta">
+              <span class="card-price">₹500</span>
+              <button class="btn btn-sm btn-comic-white" onclick="openQuickView(1)">Quick View</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1930s Cartoon Mascot Companion Illustration -->
+        <div class="cartoon-mascot-companion">
+          <svg viewBox="0 0 160 160" class="rubberhose-mascot-art">
+            <!-- Vintage Pie-Eyed Mascot -->
+            <circle cx="80" cy="65" r="40" fill="#fff" stroke="#000" stroke-width="5"/>
+            <!-- Cute Cartoon Ears -->
+            <circle cx="45" cy="35" r="14" fill="#000"/>
+            <circle cx="115" cy="35" r="14" fill="#000"/>
+            <!-- Pie Eyes -->
+            <ellipse cx="68" cy="58" rx="7" ry="12" fill="#000"/>
+            <polygon points="68,58 74,52 74,64" fill="#fff"/>
+            <ellipse cx="92" cy="58" rx="7" ry="12" fill="#000"/>
+            <polygon points="92,58 86,52 86,64" fill="#fff"/>
+            <!-- Cheerful Cartoon Mouth -->
+            <path d="M 58 75 Q 80 100 102 75" fill="#000" stroke="#000" stroke-width="4"/>
+            <path d="M 68 85 Q 80 95 92 85" fill="#fff"/>
+            <!-- Body wearing a Polo -->
+            <path d="M 55 105 L 45 150 L 115 150 L 105 105 Z" fill="#fff" stroke="#000" stroke-width="5"/>
+            <!-- Polo Collar & Placket -->
+            <polygon points="70,105 80,120 70,126 62,112" fill="#000"/>
+            <polygon points="90,105 80,120 90,126 98,112" fill="#000"/>
+            <line x1="80" y1="120" x2="80" y2="140" stroke="#000" stroke-width="3"/>
+            <circle cx="80" cy="126" r="2" fill="#000"/>
+            <circle cx="80" cy="134" r="2" fill="#000"/>
+            <!-- Rubberhose Arm & White Glove Thumbs Up -->
+            <path d="M 50 115 Q 25 125 30 95" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+            <circle cx="30" cy="92" r="10" fill="#fff" stroke="#000" stroke-width="4"/>
+            <path d="M 28 85 L 28 78 L 34 78 L 34 85" fill="#fff" stroke="#000" stroke-width="3"/>
+          </svg>
+          <div class="mascot-speech-mini">
+            "Approved by ~13!"
+          </div>
+        </div>
+
+        <!-- Thumbnails Switcher -->
+        <div class="hero-thumb-row">
+          <button class="thumb-btn active" data-img="images/polo-burgundy.jpg" title="Burgundy Polo">
+            <img src="images/polo-burgundy.jpg" alt="Burgundy Polo thumb">
+            <span>Burgundy</span>
+          </button>
+          <button class="thumb-btn" data-img="images/polo-navy.jpg" title="Royal Navy Polo">
+            <img src="images/polo-navy.jpg" alt="Navy Polo thumb">
+            <span>Navy</span>
+          </button>
+          <button class="thumb-btn" data-img="images/polo-black.jpg" title="Midnight Black Polo">
+            <img src="images/polo-black.jpg" alt="Black Polo thumb">
+            <span>Black</span>
+          </button>
+          <button class="thumb-btn" data-img="images/crew-maroon.jpg" title="Maroon Crew Neck">
+            <img src="images/crew-maroon.jpg" alt="Maroon Crew thumb">
+            <span>Crew Maroon</span>
+          </button>
+          <button class="thumb-btn" data-img="images/crew-white.jpg" title="Classic White Crew">
+            <img src="images/crew-white.jpg" alt="White Crew thumb">
+            <span>Crew White</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pincode Delivery Check Widget (Cartoon Strip Style) -->
+  <section class="pincode-section" id="pincode-section">
+    <div class="pincode-container">
+      <div class="pincode-header">
+        <div class="pincode-icon-circle">
+          <span style="font-size: 1.5rem;">📮</span>
+        </div>
+        <div>
+          <h3>CHECK PAN-INDIA DOORSTEP SERVICE</h3>
+          <p>We deliver across 19,000+ PIN codes with BlueDart, Delhivery & India Post.</p>
+        </div>
+      </div>
+      <form class="pincode-form" id="pincodeForm">
+        <div class="pincode-input-group">
+          <input 
+            type="text" 
+            id="pincodeInput" 
+            placeholder="Enter 6-digit Pincode (e.g. 400001, 110001, 560001)" 
+            maxlength="6" 
+            pattern="[0-9]{6}" 
+            required
+            autocomplete="postal-code"
+          >
+          <button type="submit" class="btn btn-primary comic-btn" id="pincodeSubmitBtn">CHECK PINCODE</button>
+        </div>
+        <div class="pincode-result" id="pincodeResult" style="display:none;"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Value Combo Deals -->
+  <section class="combo-section" id="combos">
+    <div class="section-container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">★ COMBO SAVINGS ★</span>
+        <h2 class="section-title">THE MORE YOU GRAB, THE MORE YOU SAVE</h2>
+        <p class="section-subtitle">Mix and match any colors or sizes. Your bundle discount auto-calculates in the cart!</p>
+      </div>
+
+      <div class="combo-grid">
+        <!-- Single Card -->
+        <div class="combo-card">
+          <div class="combo-badge">THE CLASSIC</div>
+          <div class="combo-header">
+            <h3>Single Polo / Tee</h3>
+            <div class="combo-price">₹500 <span class="combo-mrp">₹999</span></div>
+          </div>
+          <ul class="combo-perks">
+            <li>✓ Any 1 Heavyweight Polo or Tee</li>
+            <li>✓ Flat ₹50 Standard Express Shipping</li>
+            <li>✓ Cash on Delivery Available</li>
+          </ul>
+          <a href="#products" class="btn btn-outline btn-block comic-btn">Shop Single Piece</a>
+        </div>
+
+        <!-- 2 Pack Card -->
+        <div class="combo-card featured">
+          <div class="combo-badge highlight">★ BEST VALUE PACK ★</div>
+          <div class="combo-header">
+            <h3>Pack of 2 Polos</h3>
+            <div class="combo-price">₹950 <span class="combo-mrp">₹1,998</span></div>
+            <div class="combo-save">SAVE EXTRA ₹50 (JUST ₹475 EACH!)</div>
+          </div>
+          <ul class="combo-perks">
+            <li>✓ Any 2 Colors & Sizes of your choice</li>
+            <li>✓ <strong>FREE Express Shipping</strong> across India</li>
+            <li>✓ Cash on Delivery & UPI supported</li>
+            <li>✓ Dispatched in 24 hours</li>
+          </ul>
+          <button class="btn btn-primary btn-block comic-btn" onclick="addComboToCart(2)">
+            ADD 2 BESTSELLERS FOR ₹950
+          </button>
+        </div>
+
+        <!-- 3 Pack Card -->
+        <div class="combo-card">
+          <div class="combo-badge">HEAVY BUNDLE</div>
+          <div class="combo-header">
+            <h3>Pack of 3 Polos / Tees</h3>
+            <div class="combo-price">₹1,399 <span class="combo-mrp">₹2,997</span></div>
+            <div class="combo-save">ONLY ₹466 EACH + FREE SHIPPING!</div>
+          </div>
+          <ul class="combo-perks">
+            <li>✓ Any 3 Colors of your choice</li>
+            <li>✓ <strong>FREE Pan-India Shipping</strong></li>
+            <li>✓ Free Cotton Wash Bag Included</li>
+            <li>✓ 7-Day Doorstep Replacement Guarantee</li>
+          </ul>
+          <button class="btn btn-outline btn-block comic-btn" onclick="addComboToCart(3)">
+            ADD 3 PACK FOR ₹1,399
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Catalog Section -->
+  <section class="products-section" id="products">
+    <div class="section-container">
+      <div class="products-top-bar">
+        <div>
+          <span class="section-eyebrow">★ ~THIRTEEN-STORE CATALOG ★</span>
+          <h2 class="section-title">ALL POLOS & TEES — FLAT ₹500</h2>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="filter-tabs">
+          <button class="tab-btn active" data-filter="all">ALL STYLES (5)</button>
+          <button class="tab-btn" data-filter="polo">POLOS (3)</button>
+          <button class="tab-btn" data-filter="crew">CREW NECKS (2)</button>
+        </div>
+      </div>
+
+      <!-- Product Grid Container -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Fabric & Quality Highlights -->
+  <section class="features-section" id="features">
+    <div class="section-container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">★ GENUINE CRAFTSMANSHIP ★</span>
+        <h2 class="section-title">WHY ~THIRTEEN-STORE BEATS MALL BRANDS</h2>
+        <p class="section-subtitle">Real 220 GSM heavyweight knitwear direct from the factory floor. No middlemen. No nonsense.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🧶</div>
+          <h3>220 GSM HEAVY PIQUE</h3>
+          <p>Honeycomb weave that gives structure and drape without feeling stifling in Indian humidity. Zero see-through.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>ANTI-CURL RIBBED COLLAR</h3>
+          <p>Double-layer knitted collar with fusible interlining that stays crisp and flat through 50+ machine washes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎨</div>
+          <h3>COLOR-LOCK INK DYES</h3>
+          <p>Azo-free reactive dyeing guarantees colors (Deep Burgundy, Royal Navy, Jet Black) won't bleed or fade.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">✨</div>
+          <h3>ENZYME BIO-WASH</h3>
+          <p>Natural bio-polishing removes surface fuzz and guarantees zero fabric shrinkage after your first wash.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Verified Indian Customer Reviews -->
+  <section class="reviews-section" id="reviews">
+    <div class="section-container">
+      <div class="reviews-header-block">
+        <div>
+          <span class="section-eyebrow">★ VERIFIED REVIEWS ★</span>
+          <h2 class="section-title">WHAT THE FOLKS ARE SAYING</h2>
+          <div class="overall-rating">
+            <div class="stars">★★★★★</div>
+            <span class="rating-num">4.9 / 5</span>
+            <span class="rating-count">(2,420+ Verified Buyers across India)</span>
+          </div>
+        </div>
+        <a href="https://wa.me/919876543210?text=Hi%20~Thirteen-store!%20I%20have%20a%20question%20about%20your%20tshirts" target="_blank" class="btn btn-outline comic-btn">
+          ASK A QUESTION ON WHATSAPP
+        </a>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-top">
+            <div class="stars">★★★★★</div>
+            <span class="verified-pill">✓ VERIFIED BUYER</span>
+          </div>
+          <p class="review-text">
+            "Ordered the Burgundy Polo and honestly was surprised by the collar quality. Usually 500 rupee t-shirts have flimsy collars that curl after 1 wash, but this one is solid and heavy. Fits perfectly like Zara or US Polo."
+          </p>
+          <div class="reviewer-info">
+            <div class="avatar-circle">AK</div>
+            <div>
+              <strong>Arjun Kulkarni</strong>
+              <span>Pune, Maharashtra • Ordered Size L</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-top">
+            <div class="stars">★★★★★</div>
+            <span class="verified-pill">✓ VERIFIED BUYER</span>
+          </div>
+          <p class="review-text">
+            "Delivered to Bengaluru in 3 days via Delhivery. Paid COD at my doorstep. The fabric is 100% thick cotton pique. Ordered 2 more for my brother yesterday using the combo deal!"
+          </p>
+          <div class="reviewer-info">
+            <div class="avatar-circle">RM</div>
+            <div>
+              <strong>Rohit Menon</strong>
+              <span>Bengaluru, Karnataka • Ordered Size M</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-top">
+            <div class="stars">★★★★★</div>
+            <span class="verified-pill">✓ VERIFIED BUYER</span>
+          </div>
+          <p class="review-text">
+            "White crew neck tee is not transparent at all! That's so rare for 500rs. Plus the maroon polo looks super rich for casual office Fridays and dates. Highly recommended!"
+          </p>
+          <div class="reviewer-info">
+            <div class="avatar-circle">SS</div>
+            <div>
+              <strong>Siddharth Sharma</strong>
+              <span>Gurugram, Haryana • Ordered Size XL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section (Comic Panel Details) -->
+  <section class="faq-section" id="faq">
+    <div class="section-container max-w-md">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">★ GOT QUESTIONS? ★</span>
+        <h2 class="section-title">THE COMMONLY ASKED QUESTIONS</h2>
+      </div>
+
+      <div class="faq-accordion">
+        <details class="faq-item" open>
+          <summary class="faq-question">
+            <span>Is Cash on Delivery (COD) available in my town?</span>
+            <span class="faq-toggle-icon">+</span>
+          </summary>
+          <div class="faq-answer">
+            <p>Yes! We provide Cash on Delivery (COD) across 19,000+ PIN codes in India. You can inspect the delivery package and pay cash or scan the delivery agent's UPI QR code right at your doorstep.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>How much is the delivery charge?</span>
+            <span class="faq-toggle-icon">+</span>
+          </summary>
+          <div class="faq-answer">
+            <p>Shipping is <strong>FREE</strong> on orders with 2 or more items (₹999+). For a single t-shirt order, a nominal flat express shipping fee of ₹50 is added.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>How many days does delivery take in India?</span>
+            <span class="faq-toggle-icon">+</span>
+          </summary>
+          <div class="faq-answer">
+            <p>Metro cities (Mumbai, Delhi NCR, Bengaluru, Hyderabad, Chennai, Pune, Kolkata) receive delivery within 2 to 4 business days. Other cities and towns typically take 3 to 6 business days.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>What if the size doesn't fit? Can I exchange?</span>
+            <span class="faq-toggle-icon">+</span>
+          </summary>
+          <div class="faq-answer">
+            <p>Absolutely! We offer a <strong>7-Day Hassle-Free Size Exchange</strong>. Just WhatsApp our customer support with your Order ID, and our courier partner will pick up the existing size and deliver the new size to your doorstep.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>What is the fabric material and GSM?</span>
+            <span class="faq-toggle-icon">+</span>
+          </summary>
+          <div class="faq-answer">
+            <p>Our Polos are crafted from <strong>220 GSM 100% Pique Honeycomb Combed Cotton</strong>. Our Crew Neck tees are 190 GSM 100% Super-Combed Cotton. Both undergo enzyme bio-washing for velvet softness and zero shrinkage.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Vintage Cartoon Newspaper Look) -->
+  <footer class="site-footer">
+    <div class="section-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-text">
+            <span class="logo-name text-white">~Thirteen-store</span>
+            <span class="logo-sub">OLD-SCHOOL CARTOON INK • EST. 1930</span>
+          </div>
+          <p class="footer-desc">
+            Direct-from-factory heavyweight cotton essentials crafted in India. 
+            No middleman cuts, no exaggerated markups. Just solid, durable everyday essentials at ₹500.
+          </p>
+          <div class="footer-badges">
+            <span>🇮🇳 Made in India</span>
+            <span>★ 100% Cotton Pique</span>
+            <span>⚡ That's All, Folks!</span>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>QUICK NAVIGATION</h4>
+          <ul>
+            <li><a href="#products">Polo Collection</a></li>
+            <li><a href="#combos">Value Combo Deals</a></li>
+            <li><button class="footer-link-btn" onclick="openSizeChartModal()">Size Chart Guide</button></li>
+            <li><a href="#pincode-section">Track / Check Pincode</a></li>
+            <li><a href="#reviews">Customer Feedback</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>CUSTOMER SUPPORT</h4>
+          <ul>
+            <li>WhatsApp: +91 98765 43210</li>
+            <li>Email: orders@thirteen-store.in</li>
+            <li>Mon - Sat: 10:00 AM - 7:00 PM IST</li>
+            <li>Warehouse: Tirupur, Tamil Nadu 641602</li>
+            <li>7-Day Doorstep Replacement Guarantee</li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>PAYMENT METHODS</h4>
+          <p class="payment-notes">We accept all major Indian payment modes:</p>
+          <div class="payment-badges-row">
+            <span class="pay-chip">UPI (GPay, PhonePe, Paytm)</span>
+            <span class="pay-chip">Cash on Delivery (COD)</span>
+            <span class="pay-chip">RuPay & Visa</span>
+            <span class="pay-chip">Net Banking</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> <strong>~Thirteen-store</strong>. All rights reserved. Prices inclusive of all GST taxes.</p>
+        <p class="footer-credit">Hand-inked for VS Code & Web Browsers</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick Order Button -->
+  <a 
+    href="https://wa.me/919876543210?text=Hi%20~Thirteen-store!%20I%20want%20to%20order%20the%20Rs.500%20Polos." 
+    target="_blank" 
+    class="floating-whatsapp" 
+    aria-label="Order on WhatsApp"
+  >
+    <div class="wa-tooltip">Order on WhatsApp</div>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 17.84c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a7.92 7.92 0 0 1-1.22-4.17c0-4.41 3.59-8 8-8 2.14 0 4.15.83 5.66 2.34a7.95 7.95 0 0 1 2.35 5.66c.01 4.41-3.58 8-8.02 8zm4.39-5.99c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.95-1.21-.72-.64-1.21-1.44-1.35-1.68-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.55-.42-.14-.01-.3-.01-.46-.01-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/>
+    </svg>
+  </a>
+
+  <!-- ==================== MODALS & DRAWERS ==================== -->
+
+  <!-- Slide-Over Shopping Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart">
+    <div class="cart-header">
+      <div class="cart-title-row">
+        <h3>YOUR SHOPPING BAG</h3>
+        <span class="cart-items-counter" id="cartHeaderCount">(0 items)</span>
+      </div>
+      <button class="cart-close-btn" id="cartCloseBtn" aria-label="Close cart">&times;</button>
+    </div>
+
+    <!-- Free Delivery Progress Bar -->
+    <div class="shipping-bar-wrap">
+      <div class="shipping-bar-text" id="shippingBarText">
+        Add 2 items for <strong>FREE Pan-India Delivery</strong>!
+      </div>
+      <div class="shipping-progress">
+        <div class="shipping-progress-fill" id="shippingProgressFill" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Cart Items Scroll Area -->
+    <div class="cart-items-list" id="cartItemsList">
+      <!-- Populated dynamically via JS -->
+    </div>
+
+    <!-- Cart Footer & Checkout Summary -->
+    <div class="cart-footer" id="cartFooter">
+      <!-- Coupon Code Box -->
+      <div class="coupon-box">
+        <div class="coupon-input-row">
+          <input type="text" id="couponInput" placeholder="PROMO CODE (e.g. THIRTEEN50)" uppercase>
+          <button type="button" id="applyCouponBtn" class="btn btn-sm btn-dark comic-btn">APPLY</button>
+        </div>
+        <div class="coupon-feedback" id="couponFeedback"></div>
+      </div>
+
+      <div class="cart-summary-lines">
+        <div class="summary-line">
+          <span>Subtotal</span>
+          <span id="summarySubtotal">₹0</span>
+        </div>
+        <div class="summary-line">
+          <span>Delivery Charge</span>
+          <span id="summaryShipping">₹50</span>
+        </div>
+        <div class="summary-line discount-line" id="summaryDiscountRow" style="display:none;">
+          <span>Coupon Discount</span>
+          <span id="summaryDiscount">-₹0</span>
+        </div>
+        <div class="summary-line total-line">
+          <span>Total Payable</span>
+          <span class="total-val" id="summaryTotal">₹0</span>
+        </div>
+      </div>
+
+      <div class="cart-actions-row">
+        <button class="btn btn-primary btn-block btn-lg comic-btn" id="proceedCheckoutBtn">
+          PROCEED TO CHECKOUT ➔
+        </button>
+        <button class="btn btn-whatsapp btn-block comic-btn" id="whatsappCheckoutBtn">
+          💬 ORDER VIA WHATSAPP DIRECTLY
+        </button>
+      </div>
+
+      <div class="cart-trust-note">
+        🔒 100% Secure Checkout • Cash on Delivery Available Across India
+      </div>
+    </div>
+  </aside>
+
+  <!-- Quick View Product Modal -->
+  <dialog class="app-modal" id="quickViewModal">
+    <div class="modal-dialog-content">
+      <button class="modal-close-icon" id="quickViewCloseBtn" aria-label="Close dialog">&times;</button>
+      <div class="modal-grid" id="quickViewDetails">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Size Chart Modal -->
+  <dialog class="app-modal" id="sizeChartModal">
+    <div class="modal-dialog-content size-chart-content">
+      <button class="modal-close-icon" id="sizeChartCloseBtn" aria-label="Close dialog">&times;</button>
+      <div class="size-chart-header">
+        <h2>INDIAN STANDARD SIZE GUIDE</h2>
+        <p>Measurements in inches (Comfort Regular Fit for Men)</p>
+      </div>
+      
+      <div class="table-responsive">
+        <table class="size-table">
+          <thead>
+            <tr>
+              <th>Size</th>
+              <th>Chest (Inches)</th>
+              <th>Length (Inches)</th>
+              <th>Shoulder (Inches)</th>
+              <th>Sleeve (Inches)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>S</strong> (Small)</td>
+              <td>38"</td>
+              <td>27"</td>
+              <td>16.5"</td>
+              <td>8.0"</td>
+            </tr>
+            <tr class="highlight-row">
+              <td><strong>M</strong> (Medium)</td>
+              <td>40"</td>
+              <td>28"</td>
+              <td>17.5"</td>
+              <td>8.5"</td>
+            </tr>
+            <tr>
+              <td><strong>L</strong> (Large)</td>
+              <td>42"</td>
+              <td>29"</td>
+              <td>18.5"</td>
+              <td>9.0"</td>
+            </tr>
+            <tr>
+              <td><strong>XL</strong> (X-Large)</td>
+              <td>44"</td>
+              <td>30"</td>
+              <td>19.5"</td>
+              <td>9.5"</td>
+            </tr>
+            <tr>
+              <td><strong>XXL</strong> (2X-Large)</td>
+              <td>46"</td>
+              <td>31"</td>
+              <td>20.5"</td>
+              <td>10.0"</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="size-tips">
+        <h4>💡 HOW TO MEASURE AT HOME:</h4>
+        <p><strong>Chest:</strong> Measure around the fullest part of your chest, keeping measuring tape horizontal.</p>
+        <p><strong>Length:</strong> Measure from highest point of shoulder down to hem.</p>
+        <p class="exchange-note"><strong>Fit Guarantee:</strong> Free doorstep size replacement if it doesn't fit like a charm!</p>
+      </div>
+
+      <button class="btn btn-primary btn-block comic-btn" onclick="document.getElementById('sizeChartModal').close()">GOT IT, BACK TO POLOS</button>
+    </div>
+  </dialog>
+
+  <!-- Checkout Modal (Indian Address & Payment Choice) -->
+  <dialog class="app-modal" id="checkoutModal">
+    <div class="modal-dialog-content checkout-modal-content">
+      <button class="modal-close-icon" id="checkoutCloseBtn" aria-label="Close dialog">&times;</button>
+      
+      <div class="checkout-header">
+        <h2>COMPLETE YOUR ~THIRTEEN ORDER</h2>
+        <p>Pan-India Doorstep Express Delivery</p>
+      </div>
+
+      <form id="checkoutForm" class="checkout-form">
+        <!-- Order Items Preview -->
+        <div class="checkout-summary-mini" id="checkoutSummaryMini">
+          <!-- Populated by JS -->
+        </div>
+
+        <h3 class="form-section-title">1. CONTACT & DELIVERY ADDRESS</h3>
+        
+        <div class="form-row two-col">
+          <div class="form-group">
+            <label for="custName">Full Name *</label>
+            <input type="text" id="custName" required placeholder="e.g. Rahul Verma">
+          </div>
+          <div class="form-group">
+            <label for="custPhone">Mobile Number (for delivery SMS & OTP) *</label>
+            <div class="phone-input-wrap">
+              <span class="phone-prefix">+91</span>
+              <input type="tel" id="custPhone" required pattern="[6-9][0-9]{9}" maxlength="10" placeholder="10-digit number">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="custEmail">Email Address (for invoice receipt)</label>
+          <input type="email" id="custEmail" placeholder="e.g. rahul@gmail.com">
+        </div>
+
+        <div class="form-group">
+          <label for="custAddress">House / Flat No, Building, Street *</label>
+          <input type="text" id="custAddress" required placeholder="e.g. Flat 402, Sunshine Apartments, 12th Cross">
+        </div>
+
+        <div class="form-row three-col">
+          <div class="form-group">
+            <label for="custPincode">Pincode *</label>
+            <input type="text" id="custPincode" required pattern="[0-9]{6}" maxlength="6" placeholder="6-digit PIN">
+          </div>
+          <div class="form-group">
+            <label for="custCity">City *</label>
+            <input type="text" id="custCity" required placeholder="e.g. Mumbai">
+          </div>
+          <div class="form-group">
+            <label for="custState">State *</label>
+            <select id="custState" required>
+              <option value="">Select State</option>
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Delhi">Delhi NCR</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Maharashtra" selected>Maharashtra</option>
+              <option value="Odisha">Odisha</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="West Bengal">West Bengal</option>
+            </select>
+          </div>
+        </div>
+
+        <h3 class="form-section-title">2. SELECT PAYMENT METHOD</h3>
+        <div class="payment-methods-grid">
+          <label class="payment-option-card">
+            <input type="radio" name="paymentMethod" value="COD" checked>
+            <div class="payment-card-content">
+              <div class="pay-title-row">
+                <strong>Cash on Delivery (COD)</strong>
+                <span class="pay-badge-popular">POPULAR</span>
+              </div>
+              <p>Pay cash or scan courier UPI QR code when package reaches your door.</p>
+            </div>
+          </label>
+
+          <label class="payment-option-card">
+            <input type="radio" name="paymentMethod" value="UPI">
+            <div class="payment-card-content">
+              <div class="pay-title-row">
+                <strong>Instant UPI / QR Code</strong>
+                <span class="pay-badge-fast">FASTEST</span>
+              </div>
+              <p>Google Pay, PhonePe, Paytm, BHIM or any UPI app.</p>
+            </div>
+          </label>
+        </div>
+
+        <div class="checkout-submit-row">
+          <div class="checkout-final-amount">
+            <span>Total to Pay:</span>
+            <strong id="checkoutFinalAmountText">₹550</strong>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg comic-btn" id="placeOrderBtn">
+            CONFIRM & PLACE ORDER ➔
+          </button>
+        </div>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- Order Success / Confirmation Modal -->
+  <dialog class="app-modal" id="orderSuccessModal">
+    <div class="modal-dialog-content success-modal-content">
+      <div class="success-icon-wrap">🎉</div>
+      <h2>ORDER PLACED SUCCESSFULLY!</h2>
+      <p class="order-id-badge">Order ID: <strong id="successOrderId">#THIRTEEN-89412</strong></p>
+      
+      <div class="order-receipt-card" id="successReceiptCard">
+        <!-- Rendered by JS -->
+      </div>
+
+      <div class="success-actions-row">
+        <button class="btn btn-whatsapp comic-btn" id="sendWhatsAppReceiptBtn">
+          💬 SEND CONFIRMATION TO WHATSAPP
+        </button>
+        <button class="btn btn-outline comic-btn" onclick="window.print()">
+          🖨️ PRINT RECEIPT
+        </button>
+        <button class="btn btn-primary comic-btn" onclick="document.getElementById('orderSuccessModal').close()">
+          CONTINUE SHOPPING
+        </button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
